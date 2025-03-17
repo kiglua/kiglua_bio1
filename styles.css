@@ -101,3 +101,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
+body {
+    background-image: url('images/pc.PNG'); /* Фон для компьютеров */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Медиа-запрос для мобильных телефонов */
+@media (max-device-width: 1080px) {
+    body {
+        background-image: url('images/mb.jpg');
+    }
+}

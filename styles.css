@@ -102,7 +102,7 @@ a:hover {
     text-decoration: underline;
 }
 body {
-    background-image: url('images/pc.PNG'); /* Фон для компьютеров */
+    background-image: url('images/pc.png'); /* Фон для компьютеров */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
